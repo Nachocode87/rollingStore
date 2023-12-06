@@ -1,28 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  main {
-    flex-grow: 1;
-     }
-  
-h1{
-    font-family: Ubuntu;
-    font-weight: bold;
+  margin: 0;
+  padding: 0;
 }
-#contenedorImg{
-    width: 70px;
-    height: 70px;
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-img{
-    width: 100%;
-    object-fit: cover;
+
+main {
+  flex-grow: 1;
+}
+
+h1 {
+  font-family: Ubuntu;
+  font-weight: bold;
+  color: #edefec; /* #7BABAC;*/
+}
+
+td {
+  text-align: left;
+}
+
+#contenedorImg {
+  width: 70px;
+  height: 70px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#btnIngresaProducto {
+  font-weight: bold;
+  color: #eee80d;
+  border: 2px solid #eee80d;
+}
+
+#btnEditar,
+#btnBorrar {
+  color: #edefec;
+  border: 2px solid #edefec;
+  font-weight: bold;
+  background-color: #eee80d;
 }
