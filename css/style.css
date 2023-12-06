@@ -1,24 +1,20 @@
-/*hoja de estilo
-*/
-@import url(https://fonts.google.com/specimen/Ubuntu);
+/*hoja de estilo*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'ubuntu', sans-serif; 
 }
 
-.navBar{
+.navbar{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
     position: fixed;
     width: 100%;    
     z-index: 1;
     background-color: #474747;
-        
-}
-
-.navBar img{
-    width: 300px;
-    align-items: center;
-    justify-content: center;
+    border-bottom: 4px solid #7babac;
+       
 }
