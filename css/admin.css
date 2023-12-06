@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    flex-grow: 1;
+     }
+  
+h1{
+    font-family: Ubuntu;
+    font-weight: bold;
+}
+#contenedorImg{
+    width: 70px;
+    height: 70px;
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
