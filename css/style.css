@@ -5,7 +5,16 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'ubuntu', sans-serif; 
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    flex-grow: 1;
 }
 
 .navbar{
@@ -17,4 +26,17 @@
     background-color: #474747;
     border-bottom: 4px solid #7babac;
        
+}
+
+.foot {
+    background-color: #474747;
+    font-family: 'Ubuntu', light;
+    font-size: small;
+    color: #ffff;
+}
+
+
+.foot h3{
+    font-size: medium;
+    font-family: 'Ubuntu', medium;
 }
