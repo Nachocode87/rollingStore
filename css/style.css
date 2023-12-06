@@ -1,3 +1,24 @@
 /*hoja de estilo
 */
 @import url(https://fonts.google.com/specimen/Ubuntu);
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;    
+    z-index: 1;
+    background-color: #474747;
+        
+}
+
+.navBar img{
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+}
