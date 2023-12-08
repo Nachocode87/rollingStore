@@ -1,3 +1,52 @@
-/*hoja de estilo
-*/
-@import url(https://fonts.google.com/specimen/Ubuntu);
+/*hoja de estilo*/
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'ubuntu', sans-serif; 
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;    
+    z-index: 1;
+    background-color: #474747;
+    border-bottom: 4px solid #7babac;
+       
+}
+.cajaPerfilesNosotros {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin:auto;
+  }
+  .cajaPerfilesNosotros img {
+    border-radius: 50%;
+    width: 200px;
+    
+  }
+  .titulosAcercaNosotros{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+  }
+  .parrafoAcercaNosotros{
+    color:  #474747;
+  }
+.bgImagen{
+  background-image: url("../img/cancha.png");
+  background-size: cover;
+  
+}
+
+@media screen and (max-width: 1024px) {
+
+.bgImagen {
+  background-image: url("");
+}
+ }
