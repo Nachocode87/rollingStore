@@ -6,16 +6,17 @@ h1 {
   color: #edefec; 
 }
 
-td {
-  text-align: left;
-}
-
 #contenedorImg {
   width: 90px;
   height: 90px;
 }
 
-img {
+#tablaNacionales img {
+  width: 100%;
+  object-fit: cover;
+}
+
+#tablaInternacionales img{
   width: 100%;
   object-fit: cover;
 }
