@@ -2,13 +2,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
-
-
 *{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'ubuntu', sans-serif; 
+  margin: 0px;
+  padding: 0px;
+  font-family: 'ubuntu', sans-serif; 
 }
+
+
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
 
 .navbar{
     display: flex;
@@ -19,6 +27,9 @@
     background-color: #474747;
     border-bottom: 4px solid #7babac;
        
+}
+.acercaDNosotros{
+  margin-top: 70px;
 }
 .cajaPerfilesNosotros {
     width: 200px;
@@ -34,16 +45,35 @@
   .titulosAcercaNosotros{
     font-family: 'Ubuntu', sans-serif;
     font-size: 50px;
-  }
-  .parrafoAcercaNosotros{
     color:  #474747;
+   
+  }
+  .pAcercaNosostrosImpar{
+    color: #459394;
+    font-size: 1.25em;
+  }
+  .pAcercaNosostrosPar{
+  
+    font-size: 1.25em;
+    color: #474747;
   }
 .bgImagen{
   background-image: url("../img/cancha.png");
   background-size: cover;
   
 }
+.foot {
+  background-color: #474747;
+  font-family: 'Ubuntu', light;
+  font-size: small;
+  color: #ffff;
+}
 
+
+.foot h6{
+  font-size: medium;
+  font-family: 'Ubuntu', medium;
+}
 @media screen and (max-width: 1024px) {
 
 .bgImagen {
