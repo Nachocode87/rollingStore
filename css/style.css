@@ -1,3 +1,49 @@
-/*hoja de estilo
-*/
-@import url(https://fonts.google.com/specimen/Ubuntu);
+/*=============ESTILOS PRINCIPALES==========*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200&family=Ubuntu:wght@400;500&display=swap");
+
+/* Bajar foter */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Usar estas clases para los colores */
+
+.tx-Oscuro {
+  color: #000000;
+}
+
+.tx-Gris {
+  color: #474747;
+}
+
+
+.bgCelestePrincipal {
+  background-color: #7babac;
+}
+
+.bgClaro {
+    background-color: #edefec;
+}
+
+/* Usar estas clases para la tipografia importada */
+.tx-titulo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+}
+
+.tx-Intermedio {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.tx-parrafo {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+}
+
