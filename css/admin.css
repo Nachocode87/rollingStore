@@ -1,9 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
-h1 {
-  font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-  color: #edefec; 
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.tx-titulo {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  color: #edefec;
+}
+
+.tx-Intermedio {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+}
+
+.tx-parrafo {
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
 }
 
 #contenedorImg {
@@ -11,16 +37,23 @@ h1 {
   height: 90px;
 }
 
-#tablaNacionales img, #tablaInternacionales img, #tablaNiños img {
+#tablaNacionales img,
+#tablaInternacionales img,
+#tablaNiños img {
   width: 100%;
   object-fit: cover;
 }
-#contenedorBtn{
+
+#contenedorBtn {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-#btnIngresaProducto,#btnElijeTabla, #btnElijeProducto, #inputBuscaProducto{
+
+#btnIngresaProducto,
+#btnElijeTabla,
+#btnElijeProducto,
+#inputBuscaProducto {
   font-weight: bold;
   color: #eee80d;
   border: 2px solid #eee80d;
@@ -28,8 +61,8 @@ h1 {
 
 #btnEditar,
 #btnBorrar {
-  color:  #eee80d;
-  border: 2px solid  #eee80d;
+  color: #474747;
+  border: 2px outset #edefec;
   font-weight: bold;
-  background-color: #474747;
+  background-color: #eee80d;
 }

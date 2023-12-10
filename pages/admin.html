@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Proyecto Grupal: ecommerce sobre venta de camisetas de futbol - Grupo N° 4"
-    />
-    <meta name="author" content="Perea Fatima" />
-    <meta name="keywords" content="ecommerce, futbol, camisetas de futbol" />
+      content="Proyecto Grupal: ecommerce sobre venta de camisetas de fútbol - Grupo N° 4"
+    /> 
+    <meta name="author" content="Perea Fátima" /> 
+    <meta name="keywords" content="ecommerce, fútbol, camisetas de fútbol, indumentaria deportiva, casacas, jersey, mundial, Qatar 2022, Copa América 2021, Messi, Primera Division Argentina, Liga Europea, Inter Miami" />
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -23,14 +23,17 @@
     />
     <link rel="stylesheet" href="../css/admin.css" />
 
-    <title>Administración</title>
+    <title>Administración de Productos</title>
   </head>
   <body class="dropdown" data-bs-theme="dark">
     <header></header>
 
     <main class="container-fluid">
-      <h1 class="my-4">Administración</h1>
-      <div class="mb-4" id="contenedorBtn">
+      <h1 class="tx-titulo my-4">Administración de Productos</h1>
+
+      <!--Botón y buscador-->
+
+      <div class="tx-Intermedio mb-4" id="contenedorBtn">
         <div>
           <button class="btn btn-outline-light" id="btnIngresaProducto">
             INGRESAR PRODUCTO
@@ -47,8 +50,14 @@
             SELECCIONAR TABLA
           </button>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#tablaNacionales">Nacionales</a></li>
-            <li><a class="dropdown-item" href="#tablaInternacionales">Internacionales</a></li>
+            <li>
+              <a class="dropdown-item" href="#tablaNacionales">Nacionales</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#tablaInternacionales"
+                >Internacionales</a
+              >
+            </li>
             <li><a class="dropdown-item" href="#tablaNiños">Niños</a></li>
           </ul>
         </div>
@@ -58,19 +67,27 @@
               class="form-control me-2"
               id="inputBuscaProducto"
               type="search"
-              placeholder="Buscar Producto" 
+              placeholder="Buscar Producto"
               aria-label="Search"
             />
-            <button class="btn btn-outline-success" id="btnElijeProducto" type="submit">
+            <button
+              class="btn btn-outline-success"
+              id="btnElijeProducto"
+              type="submit"
+            >
               <i class="bi bi-search"></i>
             </button>
           </form>
         </div>
       </div>
 
-      <section>
+      <!--Sección tablas-->
+
+      <section class="tx-parrafo">
+
+        <!--Tabla Nacionales-->
         <table class="table table-success table-striped" id="tablaNacionales">
-          <thead>
+          <thead class="align-middle" class="align-middle">
             <tr>
               <th scope="col">
                 Código <br />
@@ -87,7 +104,7 @@
               <th scope="col">Stock</th>
               <th scope="col">Acciones</th>
             </tr>
-          </thead>
+          </thead class="align-middle">
           <tbody>
             <tr>
               <th scope="row">1</th>
@@ -112,10 +129,10 @@
               <td>100</td>
               <td>
                 <button class="btn btn-info" id="btnEditar">
-                  <i class="bi bi-pen-fill">Editar</i>
+                  <i class="bi bi-pen-fill"></i>
                 </button>
                 <button class="btn btn-info" id="btnBorrar">
-                  <i class="bi bi-trash3-fill">Borrar</i>
+                  <i class="bi bi-trash3-fill"></i>
                 </button>
               </td>
             </tr>
@@ -289,14 +306,14 @@
             </tr>
           </tbody>
         </table>
-      </section>
 
-      <section>
+        <!--Tabla internacionales-->
+
         <table
           class="table table-success table-striped"
           id="tablaInternacionales"
         >
-          <thead>
+          <thead class="align-middle">
             <tr>
               <th scope="col">
                 Código <br />
@@ -313,7 +330,7 @@
               <th scope="col">Stock</th>
               <th scope="col">Acciones</th>
             </tr>
-          </thead>
+          </thead class="align-middle">
           <tbody>
             <tr>
               <th scope="row">1</th>
@@ -416,11 +433,11 @@
             </tr>
           </tbody>
         </table>
-      </section>
 
-      <section>
+        <!--Tabla niños-->
+
         <table class="table table-success table-striped" id="tablaNiños">
-          <thead>
+          <thead class="align-middle">
             <tr>
               <th scope="col">
                 Código <br />
@@ -437,7 +454,7 @@
               <th scope="col">Stock</th>
               <th scope="col">Acciones</th>
             </tr>
-          </thead>
+          </thead class="align-middle">
           <tbody>
             <tr>
               <th scope="row">1</th>
