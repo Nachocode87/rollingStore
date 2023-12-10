@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 
 h1 {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
   color: #edefec; 
 }
@@ -15,8 +15,12 @@ h1 {
   width: 100%;
   object-fit: cover;
 }
-
-#btnIngresaProducto {
+#contenedorBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#btnIngresaProducto,#btnElijeTabla, #btnElijeProducto, #inputBuscaProducto{
   font-weight: bold;
   color: #eee80d;
   border: 2px solid #eee80d;
@@ -24,8 +28,8 @@ h1 {
 
 #btnEditar,
 #btnBorrar {
-  color: #edefec;
-  border: 2px solid #edefec;
+  color:  #eee80d;
+  border: 2px solid  #eee80d;
   font-weight: bold;
-  background-color: #eee80d;
+  background-color: #474747;
 }
