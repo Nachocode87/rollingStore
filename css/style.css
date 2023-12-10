@@ -22,13 +22,12 @@ main {
   color: #474747;
 }
 
-
 .bgCelestePrincipal {
   background-color: #7babac;
 }
 
 .bgClaro {
-    background-color: #edefec;
+  background-color: #edefec;
 }
 
 /* Usar estas clases para la tipografia importada */
@@ -45,4 +44,76 @@ main {
 .tx-parrafo {
   font-family: "Nunito", sans-serif;
   font-weight: 200;
+}
+
+/* Estilos Página prinicipal */
+
+.img-carrusel {
+  height: 300px;
+  object-fit: cover;
+}
+
+/* Publi imagenes */
+.publicidadMainArriba {
+  overflow: hidden;
+  width: 100%;
+}
+
+.publicidadMainArriba-content {
+  display: flex;
+  width: 300%;
+  animation: scrollImages 18s linear infinite;
+}
+
+.publicidadMainArriba-content img {
+  width: 33.33%;
+}
+@keyframes scrollImages {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-66.66%);
+  }
+}
+
+/* estilos de las cards */
+
+.brilloImagenesSeccionPrincipal {
+  transition: filter 0.3s;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.brilloImagenesSeccionPrincipal:hover {
+  filter: brightness(1.02);
+  cursor: pointer;
+  color: red;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.fondoCamisetasNacionales {
+  background-image: url(../img/fondoMasVendidos.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card:hover h4 {
+  color: #000000;
+}
+
+/* zoom en imagenes */
+.brilloImagenesSeccionPrincipal img {
+  transition: transform 0.3s;
+}
+
+.brilloImagenesSeccionPrincipal:hover img {
+  transform: scale(1.1);
+}
+
+/* Medias */
+/* Carrusel */
+@media all and (min-width: 992px) {
+  .img-carrusel {
+    height: 400px;
+  }
 }
