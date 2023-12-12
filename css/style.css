@@ -38,6 +38,22 @@
 .textoPagDetalles{
     font-size: 1.5em;
 }
+.tx-titulo {
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .tx-parrafo {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+  }
+  .tx-Intermedio{
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+  }
+  .tx-gris {
+    color: #474747;
+  }
+  
 @media screen and (max-width: 1024px) {
 
     .textoDetallesProd{
