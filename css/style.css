@@ -1,62 +1,53 @@
 /*hoja de estilo
 */
-@import url(https://fonts.google.com/specimen/Ubuntu);
-.listaDescripcion{
-    list-style: none;
-    font-size: 1.25em;
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+.listaDescripcion {
+  list-style: none;
+  font-size: 1.25em;
 }
-.btnAgregarCarrito{
-    background: #474747;
-    color: white;
-    font-size: 1.5em;
+.btnAgregarCarrito {
+  background: #474747;
+  color: white;
+  font-size: 1.5em;
 }
-.precioDetalles{
-    color: #459394;
-    font-size: 2.5em;
+.precioDetalles {
+  color: #459394;
+  font-size: 2.5em;
 }
-.hrDetalles{
-    height: 5px;
-    background: #eee80d;
-    border-color: #eee80d;
+.hrDetalles {
+  height: 5px;
+  background: #eee80d;
+  border-color: #eee80d;
 }
-.tituloPagDetalles{
-    font-size: 4em;
+.tituloPagDetalles {
+  font-size: 4em;
 }
-.tituloDetallesProd{
-    font-size: 2em;
+.tituloDetallesProd {
+  font-size: 2em;
 }
-.textoDetallesProd{
- margin: 50px 30px;
+.textoDetallesProd {
+  margin: 50px 30px;
 }
-.descripcionDetallesProd{
-    color:#459394;
-    font-size: 1.5em;
+.descripcionDetallesProd {
+  color: #459394;
+  font-size: 1.5em;
 }
-.logoTarjeta{
-    width: 50px;
+.logoTarjeta {
+  width: 50px;
 }
-.textoPagDetalles{
-    font-size: 1.5em;
+.textoPagDetalles {
+  font-size: 1.5em;
 }
-.tx-titulo {
-    font-weight: 500;
-    font-family: "Ubuntu", sans-serif;
-  }
-  .tx-parrafo {
-    font-family: "Nunito", sans-serif;
-    font-weight: 400;
-  }
-  .tx-Intermedio{
-    font-weight: 400;
-    font-family: "Ubuntu", sans-serif;
-  }
-  .tx-gris {
-    color: #474747;
-  }
-  
-@media screen and (max-width: 1024px) {
 
-    .textoDetallesProd{
-        margin: 20px 0px;
-       }
- }
+@media screen and (max-width: 1024px) {
+  .tituloPagDetalles {
+    font-size: 3em;
+  }
+  .precioDetalles {
+    font-size: 2em;
+  }
+  .textoDetallesProd {
+    margin: 20px 0px;
+  }
+}
