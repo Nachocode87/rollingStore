@@ -140,6 +140,14 @@ main {
   transform: scale(1.1) rotate(1deg);
 }
 
+
+/* Estilso pablo - Login */
+.imagenLogin{
+    width: 100%;
+    height: 90vh;
+    
+}
+
 /* Medias Queryes */
 
 @media all and (min-width: 992px) {
@@ -166,3 +174,4 @@ main {
     align-items: center;
   }
 }
+
