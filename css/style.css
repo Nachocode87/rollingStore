@@ -97,15 +97,32 @@ main {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
-.brilloImagenesSeccionPrincipal:hover {
+/* Nuevo estilo para el botón "Ver detalles" */
+.btn-ver-detalles {
+  margin-top: 10px;
+  transition: filter 0.3s; /* Agrega una transición para el efecto hover */
+}
+
+/* Estilo de hover para la card y el botón */
+.brilloImagenesSeccionPrincipal:hover,
+.brilloImagenesSeccionPrincipal:hover .btn-primary {
   filter: brightness(1.02);
   cursor: pointer;
-  color: red;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .fondoCamisetasNacionales {
-  background-image: url(../img/fondos/cool-background.png);
+  background-image: url(../img/fondos/bg-nacionales.png);
+  background-position: center;
+  background-size: cover;
+}
+.fondoCamisetasInternacionales {
+  background-image: url(../img/fondos/World\ Map.svg);
+  background-position: center;
+  background-size: cover;
+}
+.fondoCamisetasKids {
+  background-image: url(../img/fondos/fondoKids.svg);
   background-position: center;
   background-size: cover;
 }
@@ -123,10 +140,29 @@ main {
   transform: scale(1.1);
 }
 
-/* Medias */
+/* Medias Queryes */
 /* Carrusel */
 @media all and (min-width: 992px) {
   .img-carrusel {
     height: 400px;
+  }
+  .tamañoResponsiveImagenesDeSecciones {
+    height: 230px;
+    width: 230px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .tamañoResponsiveImagenesDeSecciones {
+    height: 210px;
+    width: 185px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .tituloNacionalesFix {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
