@@ -104,15 +104,15 @@ main {
 }
 
 /* Estilo de hover para la card y el botón */
-.brilloImagenesSeccionPrincipal:hover,
-.brilloImagenesSeccionPrincipal:hover .btn-primary {
+.brilloImagenesSeccionPrincipal:hover {
   filter: brightness(1.02);
   cursor: pointer;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid black;
 }
 
 .fondoCamisetasNacionales {
-  background-image: url(../img/fondos/bg-nacionales.png);
+  background-image: url(../img/fondos/fondoInternacionales.svg);
   background-position: center;
   background-size: cover;
 }
@@ -137,14 +137,14 @@ main {
 }
 
 .brilloImagenesSeccionPrincipal:hover img {
-  transform: scale(1.1);
+  transform: scale(1.1) rotate(1deg);
 }
 
 /* Medias Queryes */
-/* Carrusel */
+
 @media all and (min-width: 992px) {
   .img-carrusel {
-    height: 400px;
+    height: 450px;
   }
   .tamañoResponsiveImagenesDeSecciones {
     height: 230px;
