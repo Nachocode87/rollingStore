@@ -50,7 +50,8 @@ main {
   font-weight: 200;
 }
 
-/* Estilos Página prinicipal */
+
+/*======== Estilos Página prinicipal ==========*/
 
 .img-carrusel {
   height: 300px;
@@ -140,6 +141,30 @@ main {
   transform: scale(1.1) rotate(1deg);
 }
 
+/* Estilso nacho - footer - nav */
+.navbar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;    
+    z-index: 1;
+    background-color: #474747;
+    border-bottom: 4px solid #7babac;
+       
+}
+
+.foot {
+    background-color: #474747;
+    font-family: 'Ubuntu', light;
+    font-size: small;
+    color: #ffff;
+}
+
+
+.foot h6{
+    font-size: medium;
+    font-family: 'Ubuntu', medium;
+}
 
 /* Estilso pablo - Login */
 .imagenLogin{
@@ -148,7 +173,7 @@ main {
     
 }
 
-/* Medias Queryes */
+/*======== Medias Queryes ===== */
 
 @media all and (min-width: 992px) {
   .img-carrusel {
@@ -174,4 +199,3 @@ main {
     align-items: center;
   }
 }
-
