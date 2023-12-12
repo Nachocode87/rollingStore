@@ -1,82 +1,46 @@
 /*hoja de estilo*/
 
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
-
-*{
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
   margin: 0px;
   padding: 0px;
-  font-family: 'ubuntu', sans-serif; 
 }
 
-
-body{
+body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
-
-
-
-
-.navbar{
-    display: flex;
-    align-items: center;
-    position: fixed;
-    width: 100%;    
-    z-index: 1;
-    background-color: #474747;
-    border-bottom: 4px solid #7babac;
-       
-}
-.acercaDNosotros{
+/*Acerca de nosotros*/
+.acercaDNosotros {
   margin-top: 70px;
 }
 .cajaPerfilesNosotros {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin:auto;
-  }
-  .cajaPerfilesNosotros img {
-    border-radius: 50%;
-    width: 200px;
-    
-  }
-  .titulosAcercaNosotros{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 50px;
-    color:  #474747;
-   
-  }
-  .pAcercaNosostrosImpar{
-    color: #459394;
-    font-size: 1.25em;
-  }
-  .pAcercaNosostrosPar{
-  
-    font-size: 1.25em;
-    color: #474747;
-  }
-.bgImagen{
-  background-image: url("../img/cancha.png");
-  background-size: cover;
-  
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: auto;
 }
-.foot {
-  background-color: #474747;
-  font-family: 'Ubuntu', light;
-  font-size: small;
-  color: #ffff;
+.cajaPerfilesNosotros img {
+  border-radius: 50%;
+  width: 200px;
 }
-
-
-.foot h6{
-  font-size: medium;
-  font-family: 'Ubuntu', medium;
+.titulosAcercaNosotros {
+  font-size: 50px;
 }
-@media screen and (max-width: 1024px) {
+.pAcercaNosostros {
+  color: #459394;
+  font-size: 1.25em;
+}
 
 .bgImagen {
-  background-image: url("");
+  background-image: url("../img/cancha.png");
+  background-size: cover;
 }
- }
+
+@media screen and (max-width: 1024px) {
+  .bgImagen {
+    background-image: url("");
+  }
+}
